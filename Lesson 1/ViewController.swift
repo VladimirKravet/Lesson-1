@@ -20,12 +20,20 @@ class ViewController: UIViewController {
     
     var currentLight = CurrentLight.red
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        redColor.isHidden = true
+        stertBotton.layer.cornerRadius = 10
     }
-        
     
+    @IBAction func makeButtomAction() {
+    if redColor.isHidden {
+        redColor.isHidden = false
+        stertBotton.setTitle("Next", for: .normal)
+    } 
+    }
     override func viewWillLayoutSubviews() {
         
         redColor.layer.cornerRadius = redColor.frame.width / 2
