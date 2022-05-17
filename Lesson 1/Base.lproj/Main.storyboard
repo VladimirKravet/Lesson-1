@@ -40,8 +40,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Start"/>
                                 <connections>
-                                    <action selector="makeButtomAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="t0J-lY-qtc"/>
-                                    <action selector="makeButtomAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ceb-Sb-Kmx"/>
+                                    <action selector="makeAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSX-wP-d83"/>
                                 </connections>
                             </button>
                             <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJd-VP-mTp">
@@ -88,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="34.782608695652179" y="78.348214285714278"/>
+            <point key="canvasLocation" x="-455" y="58"/>
         </scene>
     </scenes>
     <resources>
